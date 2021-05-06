@@ -3,17 +3,17 @@
   "name": "THỜI TRANG NAM GIỚI",
   "icons": [
     {
-      "src": "../image/Logo.png",
+      "src": "https://raw.githubusercontent.com/TranDP/PWA/master/image/logo.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "../image/Logo.png",
+      "src": "https://raw.githubusercontent.com/TranDP/PWA/master/image/logo.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "../image/Logo.png",
+      "src": "https://raw.githubusercontent.com/TranDP/PWA/master/image/logo.png",
       "type": "image/png",
       "sizes": "512x512"
     }
