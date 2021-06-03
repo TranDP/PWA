@@ -1,0 +1,132 @@
+<style>
+    .footer-area {
+        padding: 100px 0px;
+        background: url(svg/footer-bg-3.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 154px;
+        margin-top: -196px;
+        position: relative;
+        z-index: 999;
+        background-size: cover;
+        background-position: top;
+        padding-bottom: 70px;
+    }
+
+    @media (max-width: 767px) {
+        .footer-area {
+            padding-top: 100px;
+        }
+    }
+
+    .footer-area:after {
+        background: url(svg/footer-bg-2.svg);
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        content: "";
+        z-index: -1;
+        background-size: cover;
+        background-position: top;
+    }
+
+    .footer-area:before {
+        background: url(svg/footer-bg1.svg);
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        content: "";
+        z-index: -1;
+        background-size: cover;
+        background-position: top;
+    }
+
+    .footer-menu ul li {
+        display: inline-block;
+    }
+
+    .footer-menu ul li a {
+        padding: 0px 17px;
+    }
+
+    @media (max-width: 767px) {
+        .footer-menu ul li a {
+            padding: 3px 10px;
+            display: inline-block;
+        }
+    }
+
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+        .footer-menu ul li a {
+            padding: 3px 6px;
+            font-size: 14px;
+        }
+    }
+
+    .footer-social-icon {
+        margin-top: 50px;
+    }
+
+    .footer-social-icon a {
+        color: #afb3b9;
+        margin: 0px 6px;
+        font-size: 20px;
+    }
+
+    .footer-logo {
+        margin-top: 28px;
+    }
+
+    .footer-title p {
+        margin-bottom: 0px;
+        margin-top: 5px;
+    }
+</style>
+
+<div class="footer-area wow fadeInUp">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="footer-menu">
+                    <ul id="footer-list">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="footer-social-icon">
+                    <a href="#"><i class='zmdi zmdi-facebook'></i></a>
+                    <a href="#"><i class='zmdi zmdi-twitter'></i></a>
+                    <a href="#"><i class='zmdi zmdi-linkedin'></i></a>
+                    <a href="#"><i class='zmdi zmdi-instagram'></i></a>
+                    <a href="#"><i class='zmdi zmdi-google-plus'></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="footer-logo">
+                    <h4><a href="#">KIMOSMART</a></h4>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="footer-title">
+                    <p>© 2020 COPYRIGHT KIM O JSC, ALL RIGHTS RESERVED by <a href="#">Kimo</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
