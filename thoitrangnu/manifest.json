@@ -1,0 +1,26 @@
+{
+  "short_name": "THỜI TRANG NỮ",
+  "name": "THỜI TRANG NỮ",
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/TranDP/PWA/master/thoitrangnu/image/logo192.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "https://raw.githubusercontent.com/TranDP/PWA/master/thoitrangnu/image/logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://raw.githubusercontent.com/TranDP/PWA/master/thoitrangnu/image/logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "https://www.thoitrangnugioi.online/",
+  "display": "standalone",
+  "theme_color": "#FF6EA4",
+  "background_color": "#FF6EA4",
+  "prefer_related_applications": true
+}
