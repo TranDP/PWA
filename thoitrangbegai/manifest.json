@@ -3,24 +3,24 @@
   "name": "THỜI TRANG BÉ GÁI",
   "icons": [
     {
-      "src": "https://raw.githubusercontent.com/TranDP/PWA/master/thoitrangnam/image/192.png",
+      "src": "https://raw.githubusercontent.com/TranDP/PWA/master/thoitrangbegai/image/logo192.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "https://raw.githubusercontent.com/TranDP/PWA/master/thoitrangnam/image/logo192.png",
+      "src": "https://raw.githubusercontent.com/TranDP/PWA/master/thoitrangbegai/image/logo192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "https://raw.githubusercontent.com/TranDP/PWA/master/thoitrangnam/image/logo512.png",
+      "src": "https://raw.githubusercontent.com/TranDP/PWA/master/thoitrangbegai/image/logo512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
   "start_url": "https://www.thoitrangnamgioi.online/",
   "display": "standalone",
-  "theme_color": "#017fff",
-  "background_color": "#017fff",
+  "theme_color": "#e73d25",
+  "background_color": "#e73d25",
   "prefer_related_applications": true
 }
