@@ -4,7 +4,9 @@
 <body>
 
 <p>Click the button to sort the list numerically:</p>
-<button onclick="sortList()">Sort</button>
+<button onclick="sortASC()">Tăng dần</button>
+<button onclick="sortDESC()">Giảm dần</button>
+<button onclick="sortListOne()">Dưới 150.000</button>
 <style>
     .framesort {
         display: flex;
@@ -70,7 +72,7 @@
 </ul>
 
 <script>
-    function sortList() {
+    function sortASC() {
         var list, i, switching, item_price, shouldSwitch, frame;
         list = document.getElementById("id01");
         switching = true;
@@ -82,6 +84,50 @@
                 shouldSwitch = false;
                 console.log(parseInt(item_price[i].innerHTML.replace(/đ|,| /g, '')))
                 if (parseInt(item_price[i].innerHTML.replace(/đ|,| /g, '')) > parseInt(item_price[i + 1].innerHTML.replace(/đ|,| /g, ''))) {
+                    shouldSwitch = true;
+                    break;
+                }
+            }
+            if (shouldSwitch) {
+                frame[i].parentNode.insertBefore(frame[i + 1], frame[i]);
+                switching = true;
+            }
+        }
+    }
+    function sortDESC() {
+        var list, i, switching, item_price, shouldSwitch, frame;
+        list = document.getElementById("id01");
+        switching = true;
+        while (switching) {
+            switching = false;
+            item_price = list.getElementsByClassName("item_price");
+            frame = list.getElementsByClassName('itemProduct')
+            for (i = 0; i < (frame.length - 1); i++) {
+                shouldSwitch = false;
+                console.log(parseInt(item_price[i].innerHTML.replace(/đ|,| /g, '')))
+                if (parseInt(item_price[i].innerHTML.replace(/đ|,| /g, '')) < parseInt(item_price[i + 1].innerHTML.replace(/đ|,| /g, ''))) {
+                    shouldSwitch = true;
+                    break;
+                }
+            }
+            if (shouldSwitch) {
+                frame[i].parentNode.insertBefore(frame[i + 1], frame[i]);
+                switching = true;
+            }
+        }
+    }
+    function sortListOne() {
+        var list, i, switching, item_price, shouldSwitch, frame;
+        list = document.getElementById("id01");
+        switching = true;
+        while (switching) {
+            switching = false;
+            item_price = list.getElementsByClassName("item_price");
+            frame = list.getElementsByClassName('itemProduct')
+            for (i = 0; i < (frame.length - 1); i++) {
+                shouldSwitch = false;
+                console.log(parseInt(item_price[i].innerHTML.replace(/đ|,| /g, '')))
+                if (parseInt(item_price[i].innerHTML.replace(/đ|,| /g, '')) < 500000) {
                     shouldSwitch = true;
                     break;
                 }
